@@ -7,7 +7,7 @@
 ```text
 temperature_map/
   api/
-    profile.py
+    index.py
   public/
     index.html
   requirements.txt

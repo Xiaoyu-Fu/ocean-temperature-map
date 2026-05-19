@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/api/profile",
-      "dest": "/api/profile.py"
+      "dest": "/api/index.py"
     },
     {
       "src": "/(.*)",
