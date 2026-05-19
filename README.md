@@ -10,6 +10,7 @@ temperature_map/
     index.py
   public/
     index.html
+  temperature_lookup_app.py
   requirements.txt
   vercel.json
   README.md
@@ -55,6 +56,18 @@ vercel dev
 
 ```text
 http://localhost:3000
+```
+
+也可以直接运行本地数据版：
+
+```bash
+python temperature_lookup_app.py --port 8890
+```
+
+然后访问：
+
+```text
+http://127.0.0.1:8890
 ```
 
 ## 部署

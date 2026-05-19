@@ -4,10 +4,6 @@
     {
       "src": "/api/profile",
       "dest": "/api/index.py"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/index.html"
     }
   ]
 }
